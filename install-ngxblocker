@@ -24,7 +24,7 @@
 ### See - https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/setup-ngxblocker
 
 # Save this file as /usr/sbin/install-ngxblocker
-# 	sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O /usr/sbin/install-ngxblocker
+# 	sudo wget https://raw.githubusercontent.com/HeronSantosCom/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O /usr/sbin/install-ngxblocker
 # Make it Executable:
 # 	chmod 700 /usr/sbin/install-ngxblocker
 # Run it from the command line:
@@ -32,7 +32,7 @@
 
 ######## LETS INSTALL NOW ###############################
 
-CONF_DIR=/etc/nginx/conf.d
+CONF_DIR=/etc/nginx/default.d
 BOTS_DIR=/etc/nginx/bots.d
 REPO=https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
 
