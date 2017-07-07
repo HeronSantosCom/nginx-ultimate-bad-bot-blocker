@@ -8,9 +8,9 @@
 
 WWW=/var/www
 VHOST_EXT="vhost"
-VHOST_DIR=/etc/nginx/sites-available
+VHOST_DIR=/etc/nginx/conf.d
 BOTS_DIR=/etc/nginx/bots.d
-CONF_DIR=/etc/nginx/conf.d
+CONF_DIR=/etc/nginx/default.d
 MAIN_CONF=/etc/nginx/nginx.conf
 # setting Y / yes will whitelist only directories in $www
 # that look like domain.names
