@@ -268,7 +268,7 @@ check_online() {
 main() {
 	local include_url= file= line= file_list= col_size=
 	local CONF_FILES= VHOST_INCLUDES=
-	local REPO=https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master
+	local REPO=https://raw.githubusercontent.com/HeronSantosCom/nginx-ultimate-bad-bot-blocker/master
 
 	# require root
 	if [ "$(id -u)" != "0" ]; then
