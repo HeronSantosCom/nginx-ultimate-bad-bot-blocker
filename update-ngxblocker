@@ -1,8 +1,8 @@
 #!/bin/sh
 
 # Shell Script for Auto Updating the Nginx Bad Bot Blocker
-# Copyright: https://github.com/mitchellkrogza
-# Project Url: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker
+# Copyright: https://github.com/HeronSantosCom
+# Project Url: https://github.com/HeronSantosCom/nginx-ultimate-bad-bot-blocker
 # Update script & Alpine Linux package by Stuart Cardall: https://github.com/itoffshore
 
 # MAKE SURE you have all the following files in /etc/nginx/bots.d/ folder
@@ -14,7 +14,7 @@
 # custom-bad-referrers.conf
 # blacklist-ips.conf
 # A major change to using include files was introduced in
-# https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/commit/7e3ab02172dafdd524de5dd450a9732328622779
+# https://github.com/HeronSantosCom/nginx-ultimate-bad-bot-blocker/commit/7e3ab02172dafdd524de5dd450a9732328622779
 # **************************************************************************
 # Nginx will fail a reload with [EMERG] without the presence of these files.
 
@@ -22,7 +22,7 @@
 
 # Save this file as /usr/sbin/update-ngxblocker
 # cd /usr/sbin
-# sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/update-ngxblocker -O update-ngxblocker
+# sudo wget https://raw.githubusercontent.com/HeronSantosCom/nginx-ultimate-bad-bot-blocker/master/update-ngxblocker -O update-ngxblocker
 # Make it Executable chmod 700 /usr/sbin/update-ngxblocker
 
 # RUN THE UPDATE
