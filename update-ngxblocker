@@ -28,9 +28,9 @@
 # RUN THE UPDATE
 # Here our script runs, pulls the latest update, reloads nginx and emails you a notification
 
-EMAIL="me@myemail.com"
+EMAIL="equipe@illi.com.br"
 SEND_EMAIL="Y"
-CONF_DIR=/etc/nginx/conf.d
+CONF_DIR=/etc/nginx/default.d
 
 ##### end user configuration ##############################################################
 
