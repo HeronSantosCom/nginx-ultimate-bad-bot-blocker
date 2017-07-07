@@ -6,8 +6,8 @@
 ###  Licensed under the terms of the GPL2              ###
 ##########################################################
 
-WWW=/var/www
-VHOST_EXT="vhost"
+WWW=/usr/share/nginx/html
+VHOST_EXT="conf"
 VHOST_DIR=/etc/nginx/conf.d
 BOTS_DIR=/etc/nginx/bots.d
 CONF_DIR=/etc/nginx/default.d
