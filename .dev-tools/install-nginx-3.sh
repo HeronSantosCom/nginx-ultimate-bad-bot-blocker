@@ -2,7 +2,7 @@
 # Travis CI Generating and Building for the Nginx Ultimate Bad Bot Blocker (using non standard folder locations)
 # Created by: Mitchell Krog (mitchellkrog@gmail.com)
 # Copyright: Mitchell Krog - https://github.com/mitchellkrogza
-# Repo Url: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker
+# Repo Url: https://github.com/HeronSantosCom/nginx-ultimate-bad-bot-blocker
 
 ##############################################################################                                                                
 #       _  __     _                                                          #
@@ -104,7 +104,7 @@ printf '\n%s\n%s\n%s\n\n' "#####################################" "Finished Ngin
 # ***********************************************
 
 printf '\n%s\n%s\n%s\n\n' "######################################" "Fetch install-ngxblocker from the repo" "######################################"
-sudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O /usr/sbin/install-ngxblocker
+sudo wget https://raw.githubusercontent.com/HeronSantosCom/nginx-ultimate-bad-bot-blocker/master/install-ngxblocker -O /usr/sbin/install-ngxblocker
 sudo chmod +x /usr/sbin/install-ngxblocker
 
 # **********************

@@ -9,7 +9,7 @@ User\-Agent, Spam Referrer Blocker, Adware, Malware and Ransomware Blocker, Clic
 .IP \(bu 2
 For Nginx Web Server \- \[la]https://www.nginx.com/\[ra]
 .IP \(bu 2
-See sample Nginx Vhost config at: (Please read full instructions too) \[la]https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/NGINX-SSL-Site-Config-Example.md\[ra]
+See sample Nginx Vhost config at: (Please read full instructions too) \[la]https://github.com/HeronSantosCom/nginx-ultimate-bad-bot-blocker/blob/master/NGINX-SSL-Site-Config-Example.md\[ra]
 .IP \(bu 2
 Includes the creation of a google\-exclude.txt file for creating filters / segments in Google Analytics (see instructions lower down)
 .IP \(bu 2
@@ -126,7 +126,7 @@ For bot's or spiders that you still want to allow but want to limit their visita
 .SS AUTO INSTALLATION INSTRUCTIONS
 .PP
 To Make Sure you copy all the correct files you can now use a simple bash setup script for copying the files into the correct nginx folders for you:
-See: \[la]https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/installnginxblocker.sh\[ra]
+See: \[la]https://raw.githubusercontent.com/HeronSantosCom/nginx-ultimate-bad-bot-blocker/master/installnginxblocker.sh\[ra]
 .PP
 \fBPlease Note:\fP the bash installer script does not carry out STEP 7 of the manual configuration instructions for you. YOU MUST edit any vhosts files  yourself and manually add the entries in STEP 7 or the blocker will not actually be protecting any sites.
 .SH MANUAL INSTALLATION INSTRUCTIONS
@@ -138,7 +138,7 @@ Copy the contents of \fB/conf.d/globalblacklist.conf\fP into your /etc/nginx/con
 .PP
 \fB\fCcd /etc/nginx/conf.d\fR
 .PP
-\fB\fCsudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx\-ultimate\-bad\-bot\-blocker/master/conf.d/globalblacklist.conf \-O globalblacklist.conf\fR
+\fB\fCsudo wget https://raw.githubusercontent.com/HeronSantosCom/nginx\-ultimate\-bad\-bot\-blocker/master/conf.d/globalblacklist.conf \-O globalblacklist.conf\fR
 .SH STEP 2:
 .PP
 \fBCOPY THE INCLUDE FILES FROM THE REPO\fP
@@ -155,13 +155,13 @@ From your command line in Linux type
 copy the blockbots.conf file into that folder
 .RE
 .PP
-\fB\fCsudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx\-ultimate\-bad\-bot\-blocker/master/bots.d/blockbots.conf \-O blockbots.conf\fR
+\fB\fCsudo wget https://raw.githubusercontent.com/HeronSantosCom/nginx\-ultimate\-bad\-bot\-blocker/master/bots.d/blockbots.conf \-O blockbots.conf\fR
 .RS
 .IP \(bu 2
 copy the ddos.conf file into the same folder
 .RE
 .PP
-\fB\fCsudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx\-ultimate\-bad\-bot\-blocker/master/bots.d/ddos.conf \-O ddos.conf\fR
+\fB\fCsudo wget https://raw.githubusercontent.com/HeronSantosCom/nginx\-ultimate\-bad\-bot\-blocker/master/bots.d/ddos.conf \-O ddos.conf\fR
 .SH STEP 3:
 .PP
 \fBWHITELIST ALL YOUR OWN DOMAIN NAMES AND IP ADDRESSES\fP
@@ -174,13 +174,13 @@ Whitelist all your own domain names and IP addresses. \fBPlease note important c
 copy the whitelist\-ips.conf file into that folder
 .RE
 .PP
-\fB\fCsudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx\-ultimate\-bad\-bot\-blocker/master/bots.d/whitelist\-ips.conf \-O whitelist\-ips.conf\fR
+\fB\fCsudo wget https://raw.githubusercontent.com/HeronSantosCom/nginx\-ultimate\-bad\-bot\-blocker/master/bots.d/whitelist\-ips.conf \-O whitelist\-ips.conf\fR
 .RS
 .IP \(bu 2
 copy the whitelist\-domains.conf file into the same folder
 .RE
 .PP
-\fB\fCsudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx\-ultimate\-bad\-bot\-blocker/master/bots.d/whitelist\-domains.conf \-O whitelist\-domains.conf\fR
+\fB\fCsudo wget https://raw.githubusercontent.com/HeronSantosCom/nginx\-ultimate\-bad\-bot\-blocker/master/bots.d/whitelist\-domains.conf \-O whitelist\-domains.conf\fR
 .PP
 Use nano, vim or any other text editor to edit both whitelist\-ips.conf and whitelist\-domains.conf to include all your own domain names and IP addresses that you want to specifically whitelist from the blocker script. 
 .PP
@@ -197,7 +197,7 @@ Copy the custom User\-Agents blacklist file into your /etc/nginx/bots.d folder
 copy the blacklist\-user\-agents.conf file into the same folder
 .RE
 .PP
-\fB\fCsudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx\-ultimate\-bad\-bot\-blocker/master/bots.d/blacklist\-user\-agents.conf \-O blacklist\-user\-agents.conf\fR
+\fB\fCsudo wget https://raw.githubusercontent.com/HeronSantosCom/nginx\-ultimate\-bad\-bot\-blocker/master/bots.d/blacklist\-user\-agents.conf \-O blacklist\-user\-agents.conf\fR
 .PP
 Use nano, vim or any other text editor to edit (if needed) blacklist\-user\-agents.conf to include your own custom list of bad agents that are not included in the blocker like "omgilibot" which some people choose to block. 
 .SH STEP 5:
@@ -211,7 +211,7 @@ Use nano, vim or any other text editor to edit (if needed) blacklist\-user\-agen
 copy the botblocker\-nginx\-settings.conf file directly from the repo
 .RE
 .PP
-\fB\fCsudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx\-ultimate\-bad\-bot\-blocker/master/conf.d/botblocker\-nginx\-settings.conf \-O botblocker\-nginx\-settings.conf\fR
+\fB\fCsudo wget https://raw.githubusercontent.com/HeronSantosCom/nginx\-ultimate\-bad\-bot\-blocker/master/conf.d/botblocker\-nginx\-settings.conf \-O botblocker\-nginx\-settings.conf\fR
 .PP
 \fBWhat is included in this settings file above for nginx?\fP
 The important settings file above adds the rate limiting functions and hash_bucket settings for nginx for you. Below is what the file contains, you cn add these manually to your nginx.conf file if you so please but the include file above will do it for you ad nginx loads any .conf file in /etc/conf.d (See STEP 6)
@@ -293,7 +293,7 @@ Updating to the latest version is now as simple as:
 .PP
 \fB\fCcd /etc/nginx/conf.d\fR
 .PP
-\fB\fCsudo wget https://raw.githubusercontent.com/mitchellkrogza/nginx\-ultimate\-bad\-bot\-blocker/master/conf.d/globalblacklist.conf\fR
+\fB\fCsudo wget https://raw.githubusercontent.com/HeronSantosCom/nginx\-ultimate\-bad\-bot\-blocker/master/conf.d/globalblacklist.conf\fR
 .PP
 \fB\fCsudo nginx \-t\fR
 .PP
@@ -304,12 +304,12 @@ And you will be up to date with all your whitelisted domains included automatica
 .PP
 See my latest auto updater bash script at:
 .PP
-\[la]https://raw.githubusercontent.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/master/updatenginxblocker.sh\[ra]
+\[la]https://raw.githubusercontent.com/HeronSantosCom/nginx-ultimate-bad-bot-blocker/master/updatenginxblocker.sh\[ra]
 .PP
 Relax now and sleep better at night knowing your site is telling all those baddies they are FORBIDDEN !!!
 .SS PULL REQUESTS:
 .PP
-To contribute your own bad referers please add them into the \[la]https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/Pull_Requests_Here_Please/badreferers.list\[ra] file and then send a Pull Request (PR).
+To contribute your own bad referers please add them into the \[la]https://github.com/HeronSantosCom/nginx-ultimate-bad-bot-blocker/blob/master/Pull_Requests_Here_Please/badreferers.list\[ra] file and then send a Pull Request (PR).
 .PP
 \fBAll additions will be checked for accuracy before being merged.\fP
 .PP

@@ -6,8 +6,8 @@
 
 <table style="width:100%;margin:0;">
   <tr>
-    <td align="left"><img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/nginx-ultimate-bad-bot-referrer-blocker.png" alt="Nginx Ultimate Bad Bot Spam Referrer Blocker - Nginx Block Bad Bots, Vulnerability Scanners, Malware and Adware, Malicious Sites, Spam Referrers, Bad Referrers, Spam Blocker with DDOS, Wordpress Theme Detector Blocking and Fail2Ban Jail for Repeat Offenders"/></td>
-    <td align="right"><a href="https://travis-ci.org/mitchellkrogza/nginx-ultimate-bad-bot-blocker" target="_blank"><img src="https://travis-ci.org/mitchellkrogza/nginx-ultimate-bad-bot-blocker.svg?branch=master"/></a></td>
+    <td align="left"><img src="https://github.com/HeronSantosCom/nginx-ultimate-bad-bot-blocker/blob/master/nginx-ultimate-bad-bot-referrer-blocker.png" alt="Nginx Ultimate Bad Bot Spam Referrer Blocker - Nginx Block Bad Bots, Vulnerability Scanners, Malware and Adware, Malicious Sites, Spam Referrers, Bad Referrers, Spam Blocker with DDOS, Wordpress Theme Detector Blocking and Fail2Ban Jail for Repeat Offenders"/></td>
+    <td align="right"><a href="https://travis-ci.org/HeronSantosCom/nginx-ultimate-bad-bot-blocker" target="_blank"><img src="https://travis-ci.org/HeronSantosCom/nginx-ultimate-bad-bot-blocker.svg?branch=master"/></a></td>
   </tr>
 </table>
 
@@ -17,7 +17,7 @@
 
 - **Do not simply copy and paste this over your entire nginx folder**, use it as a guide only as it requires that you put the correct domain names into your hosts config's and also correct certificate locations.
 
-- PLEASE Follow the main configuration instructions at https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/CONFIGURATION.md
+- PLEASE Follow the main configuration instructions at https://github.com/HeronSantosCom/nginx-ultimate-bad-bot-blocker/blob/master/CONFIGURATION.md
 
 - If you follow the main configuration instructions all you need to to is make the changes required in your /etc/conf.d/default.conf and /etc/conf.d/default_https.conf files as per this example.
 

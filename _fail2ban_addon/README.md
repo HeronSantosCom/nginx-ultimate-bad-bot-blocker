@@ -11,7 +11,7 @@
 
 # Add on for Nginx Ultimate Bad Bot, User-Agent and Spam Referrer Blocker
 
-[![NGINX ULTIMATE BAD BOT BLOCKER](https://img.shields.io/badge/NGINX%20-%20ULTIMATE%20BAD%20BOT%20BLOCKER%20%E2%9B%94-blue.svg)](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker)
+[![NGINX ULTIMATE BAD BOT BLOCKER](https://img.shields.io/badge/NGINX%20-%20ULTIMATE%20BAD%20BOT%20BLOCKER%20%E2%9B%94-blue.svg)](https://github.com/HeronSantosCom/nginx-ultimate-bad-bot-blocker)
 
 ************************************************
 - Created by: https://github.com/mitchellkrogza for use on Nginx Web Server https://www.nginx.com/
@@ -61,7 +61,7 @@ and ban them for 1 day. This works like a charm as an add-on for my Nginx Bad
 Bot Blocker which takes care of generating the 444 or 403 errors based on the extensive
 list of Bad Referers, Bots, Scrapers and IP addresses that it covers. This provides short
 block periods of one day which is enough to keep agressive bots from filling up your log files.
-See - https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker for more info on the Nginx Bad Bot Blocker
+See - https://github.com/HeronSantosCom/nginx-ultimate-bad-bot-blocker for more info on the Nginx Bad Bot Blocker
 
 This custom action requires a custom jail in your jail.local file for Fail2Ban
 
@@ -91,7 +91,7 @@ Be sure to add the rate limiting zone to your nginx.conf as per instructions in 
 ************************************************
 ## CHECK FOR FREE IF YOUR WEB SITE IS COMPROMISED OR BLACKLISTED
 
-<a href="https://www.gravityscan.com/" target="_blank"><img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/gravity-scan-by-wordfence.png" alt="Check if your web site is blacklisted, hacked or compromised using the awesome Free GravityScan tool"/></a>
+<a href="https://www.gravityscan.com/" target="_blank"><img src="https://github.com/HeronSantosCom/nginx-ultimate-bad-bot-blocker/blob/master/.assets/gravity-scan-by-wordfence.png" alt="Check if your web site is blacklisted, hacked or compromised using the awesome Free GravityScan tool"/></a>
 
 ************************************************
 # HAS YOUR WEB SITE BEEN HACKED?
@@ -156,7 +156,7 @@ Thousand of hours of programming and testing have gone into this project, show s
 
 [![Help me out with a mug of beer](https://img.shields.io/badge/Help%20-%20me%20out%20with%20a%20mug%20of%20%F0%9F%8D%BA-blue.svg)](https://paypal.me/mitchellkrog/) or [![Help me feed my cat](https://img.shields.io/badge/Help%20-%20me%20feed%20my%20hungry%20cat%20%F0%9F%98%B8-blue.svg)](https://paypal.me/mitchellkrog/)
 
-<img src="https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker/blob/master/.assets/zuko.png"/>
+<img src="https://github.com/HeronSantosCom/nginx-ultimate-bad-bot-blocker/blob/master/.assets/zuko.png"/>
 
 ************************************************
 # MIT License

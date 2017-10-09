@@ -2,7 +2,7 @@
 # Generator Script for the Nginx Ultimate Bad Bot Blocker
 # Created by: Mitchell Krog (mitchellkrog@gmail.com)
 # Copyright: Mitchell Krog - https://github.com/mitchellkrogza
-# Repo Url: https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker
+# Repo Url: https://github.com/HeronSantosCom/nginx-ultimate-bad-bot-blocker
 
 # Generate a robots.txt file for those unable to use the full Nginx Ultimate Bad Bot Blocker
 
