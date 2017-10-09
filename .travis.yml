@@ -6,8 +6,9 @@ env:
     - GIT_EMAIL: mitchellkrog@gmail.com
     - TRAVIS_REPO_SLUG: mitchellkrogza/nginx-ultimate-bad-bot-blocker
     - GIT_BRANCH: master
-#sudo: required
+sudo: required
 dist: trusty
+
 matrix:
   include:
     - php: 7.0
@@ -15,6 +16,7 @@ matrix:
     - php: 7.0
     - php: hhvm
   fast_finish: true
+
 cache:
   - apt
 addons:
@@ -29,22 +31,31 @@ before_install:
 install:
   - sudo add-apt-repository -y ppa:nginx/stable
   - sudo apt-get update
-  - sudo apt-get install -y --force-yes nginx-extras
+  - sudo apt-get install -y --assume-yes nginx-extras
+  - sudo apt-get -y install dos2unix
 
 script:
-  - bash travisCI/install-nginx.sh
-  - bash travisCI/run-curl-tests.sh
-  - bash travisCI/modify-files-and-commit.sh
+  - bash .dev-tools/generate-files.sh
+  - bash .dev-tools/install-nginx-1.sh
+  - bash .dev-tools/run-curl-tests-1.sh
+  - bash .dev-tools/install-nginx-2.sh
+  - bash .dev-tools/run-curl-tests-2.sh
+  - bash .dev-tools/install-nginx-3.sh
+  - bash .dev-tools/run-curl-tests-3.sh
+  - bash .dev-tools/install-nginx-4.sh
+  - bash .dev-tools/run-curl-tests-4.sh
+  - bash .dev-tools/modify-files-and-commit.sh
 
 before_deploy:
-  - bash travisCI/deploy-package.sh
+  - bash .dev-tools/deploy-package.sh
 
 deploy:
   provider: releases
   api_key:
     secure: ${GH_TOKEN}
   file:
-  - "conf.d/globalblacklist.conf"
+      - .latest_release/conf.d.tar.gz
+      - .latest_release/bots.d.tar.gz
   skip_cleanup: true
   on:
     repo: mitchellkrogza/nginx-ultimate-bad-bot-blocker

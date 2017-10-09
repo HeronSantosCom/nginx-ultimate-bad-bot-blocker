@@ -4,6 +4,17 @@
 #    setup-ngxblocker	   #
 ############################
 
+#########################################################################                                                                
+#        _  __     _                                                    #
+#       / |/ /__ _(_)__ __ __                                           #
+#      /    / _ `/ / _ \\ \ /                                           #
+#     /_/|_/\_, /_/_//_/_\_\                                            #
+#        __/___/      __  ___       __    ___  __         __            #
+#       / _ )___ ____/ / / _ )___  / /_  / _ )/ /__  ____/ /_____ ____  #
+#      / _  / _ `/ _  / / _  / _ \/ __/ / _  / / _ \/ __/  '_/ -_) __/  #
+#     /____/\_,_/\_,_/ /____/\___/\__/ /____/_/\___/\__/_/\_\\__/_/     #
+#########################################################################  
+
 CONF_FILES="
         globalblacklist.conf
         botblocker-nginx-settings.conf
@@ -12,12 +23,13 @@ CONF_FILES="
 BOT_FILES="
         blockbots.conf
         ddos.conf
-        whitelist-ips.conf
-        whitelist-domains.conf
-        blacklist-user-agents.conf
-        blacklist-ips.conf
-        bad-referrer-words.conf
         custom-bad-referrers.conf
+        bad-referrer-words.conf
+        blacklist-domains.conf
+        blacklist-ips.conf
+        blacklist-user-agents.conf
+        whitelist-domains.conf
+        whitelist-ips.conf
         "
 
 VHOST_INCLUDES="
@@ -25,3 +37,8 @@ VHOST_INCLUDES="
 	ddos.conf
 	"
 
+SCRIPT_FILES="
+	install-ngxblocker
+	setup-ngxblocker
+	update-ngxblocker
+	"

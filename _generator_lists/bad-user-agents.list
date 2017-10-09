@@ -18,10 +18,14 @@ Asterias
 Attach
 autoemailspider
 BackDoorBot
+Backlink-Ceck
+backlink-check
+BacklinkCrawler
 BackStreet
 BackWeb
 Badass
 Bandit
+Barkrowler
 BatchFTP
 Battleztar\ Bazinga
 BBBike
@@ -39,6 +43,7 @@ Boardreader
 Bolt
 BotALot
 Brandprotect
+BrandProtect
 Brandwatch
 Bubing
 Buddy
@@ -61,21 +66,26 @@ Cliqzbot
 Cogentbot
 cognitiveseo
 Collector
+com.plumanalytics
 Copier
 CopyRightCheck
 Copyscape
 Cosmos
 Craftbot
 CrazyWebCrawler
+CRAZYWEBCRAWLER
 Crescent
 CSHttp
 Curious
 Custo
 DatabaseDriverMysqli
+DataCha0s
 DBLBot
+demandbase-bot
 Demon
 Deusu
 Devil
+Digincore
 DIIbot
 Dirbuster
 Disco
@@ -85,6 +95,7 @@ DittoSpyder
 DomainAppender
 DomainCrawler
 DomainSigmaCrawler
+DomainStatsBot
 Dotbot
 Download\ Demon
 Download\ Devil
@@ -108,25 +119,30 @@ Exabot
 Express\ WebPictures
 Extractor
 ExtractorPro
+Extreme\ Picture\ Finder
 EyeNetIE
 Ezooms
+FDM
 FHscan
 Fimap
-Findxbot
 Firefox/7.0
 FlashGet
 Flunky
 Foobot
+fq
 Freeuploader
 FrontPage
 Fyrebot
 GalaxyBot
 Genieo
+GermCrawler
 Getintent
 GetRight
 GetWeb
 Gigablast
 Gigabot
+G-i-g-a-b-o-t
+G\-i\-g\-a\-b\-o\-t
 Go-Ahead-Got-It
 Gotit
 GoZilla
@@ -160,6 +176,7 @@ Image\ Sucker
 Indy\ Library
 InfoNaviRobot
 InfoTekies
+instabid
 Intelliseek
 InterGET
 Internet\ Ninja
@@ -175,10 +192,12 @@ JetCar
 JikeSpider
 JOC\ Web\ Spider
 Joomla
+Jorgee
 JustView
 Jyxobot
 Kenjin\ Spider
 Keyword\ Density
+Kozmosbot
 Lanshanbot
 Larbin
 LeechFTP
@@ -217,6 +236,7 @@ Masscan
 Mass\ Downloader
 Mata\ Hari
 Meanpathbot
+mediawords
 MegaIndex.ru
 Metauri
 MFC_Tear_Sample
@@ -227,6 +247,7 @@ MIIxpc
 Mister\ PiX
 MJ12bot
 Mojeek
+Morfeus\ Fucking\ Scanner
 MSFrontPage
 MSIE\ 6.0
 MSIECrawler
@@ -247,6 +268,7 @@ NetMechanic
 NetSpider
 Nettrack
 Net\ Vampire
+Netvibes
 NetZIP
 NextGenSearchBot
 Nibbler
@@ -282,10 +304,12 @@ PeoplePal
 PHPCrawl
 Picscout
 Picsearch
+PictureFinder
 Pimonster
 Pi-Monster
 Pixray
 PleaseCrawl
+plumanalytics
 Pockey
 POE-Component-Client-HTTP
 Probethenet
@@ -297,10 +321,16 @@ Pump
 PyCurl
 QueryN\ Metasearch
 Qwantify
+RankActive
 RankActiveLinkBot
+RankFlex
+RankingBot
+RankingBot2
 Rankivabot
+RankurBot
 RealDownload
 Reaper
+RebelMouse
 Recorder
 RedesScrapy
 ReGet
@@ -347,6 +377,7 @@ Snoopy
 SocialRankIOBot
 Sogou\ web\ spider
 Sosospider
+Sottopop
 SpaceBison
 Spammen
 SpankBot
@@ -367,6 +398,7 @@ Surfbot
 SurveyBot
 Suzuran
 Swiftbot
+sysscan
 Szukacz
 T0PHackTeam
 T8Abot
@@ -400,6 +432,7 @@ VB\ Project
 VCI
 VeriCiteCrawler
 VidibleScraper
+Virusdie
 VoidEYE
 Voil
 Voltron
@@ -466,6 +499,7 @@ WWW-Collector-E
 WWW-Mechanize
 WWW::Mechanize
 WWWOFFLE
+x09Mozilla
 x22Mozilla
 Xaldon_WebSpider
 Xaldon\ WebSpider

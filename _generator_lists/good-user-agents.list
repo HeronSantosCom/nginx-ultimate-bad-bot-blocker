@@ -14,6 +14,7 @@ Googlebot-News
 Googlebot/Test
 Googlebot-Video
 Google-HTTP-Java-Client
+Gravityscan
 gsa-crawler
 Jakarta\ Commons
 Kraken/0.1
@@ -22,6 +23,8 @@ Mediapartners-Google
 msnbot
 msnbot-media
 SAMSUNG
+Slackbot
+Slackbot-LinkExpanding
 slurp
 teoma
 TwitterBot
